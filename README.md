@@ -44,12 +44,17 @@ Se utiliza **Room** como sistema de persistencia local, facilitando el acceso y 
 ### 📚 Gestor de administrador 
 ![Administrador](Admin.png)
 
+## 📦 Instalación
+1. Descargar el archivo APK
+2. Instalar en un dispositivo Android
+3. Ejecutar la aplicación
 
 ## 🎯 Objetivo del proyecto
-El objetivo de este proyecto ha sido aplicar los conocimientos adquiridos durante el ciclo DAM, desarrollando una aplicación funcional siguiendo buenas prácticas de programación.
+Desarrollar una solución que permita gestionar reservas en gimnasios de forma eficiente, mejorando la organización y la experiencia del usuario.
 
-## 👩‍💻 Autora
+## 👩‍💻 Autor
 **María Yulisa Misas Valencia**
+Desarrolladora de aplicaciones multiplataforma 
 
 ## 📌 Estado del proyecto
 Proyecto finalizado como parte de formación académica.

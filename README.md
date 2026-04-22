@@ -28,10 +28,22 @@ La aplicación está desarrollada siguiendo el patrón **MVVM (Model - View - Vi
 Se utiliza **Room** como sistema de persistencia local, facilitando el acceso y gestión de datos mediante DAO.
 
 ## 📸 Capturas de pantalla
-*![Pantalla principal](ruta-imagen)
-*
-*
-*
+
+### 🏠 Pantalla principal
+![Pantalla principal](Principal.png)
+
+### 📅 Calendario de clases colectivas 
+![Calendario](Calendario.png)
+
+### 📋 Detalle de reservas
+![Reservas](Reservas.png)
+
+### ⛳Ocupación actual de clases reservadas
+![Ocupación](Ocupación.png)
+
+### 📚 Gestor de administrador 
+![Administrador](Admin.png)
+
 
 ## 🎯 Objetivo del proyecto
 El objetivo de este proyecto ha sido aplicar los conocimientos adquiridos durante el ciclo DAM, desarrollando una aplicación funcional siguiendo buenas prácticas de programación.

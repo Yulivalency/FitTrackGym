@@ -1,6 +1,7 @@
 # 🏋️ FitTrackGym
 
 Aplicación móvil Android para la gestión de reservas y control de aforo en gimnasios
+
 📚 Proyecto final del ciclo de Desarrollo de Aplicaciones Multiplataforma (DAM)
 
 ## 📱 Sobre el proyecto
@@ -76,14 +77,19 @@ Se implementa Room (SQLite abstraction) para la persistencia local:
 3. Ejecutar la aplicación
 
 ## 📈 Estado del proyecto
+
 ✔ Proyecto finalizado
+
 📚 Desarrollo académico (DAM)
+
 🚀 Incluido en portafolio profesional
+
 📱 Versión funcional Android
 
 ## 👩‍💻 Autor
 
 **María Yulisa Misas Valencia**
+
 💻 Desarrolladora de aplicaciones multiplataforma
 
 ## 🌟 Enfoque del proyecto

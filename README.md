@@ -18,6 +18,7 @@ Desarrollar una solución digital eficiente para la gestión de reservas en gimn
 - ⏳ Lista de espera automática
 - 👤 Gestión de perfil de usuario
 - 📊 Visualización de disponibilidad en tiempo real
+  
 🧑‍💼 Administrador
 - 🏋️ Gestión de actividades
 - 📊 Control de aforo
@@ -26,17 +27,12 @@ Desarrollar una solución digital eficiente para la gestión de reservas en gimn
 ## 🧠 Arquitectura del sistema
 El proyecto sigue el patrón MVVM (Model - View - ViewModel):
 
-UI (View)
-   ↓
-ViewModel
-   ↓
-Repository
-   ↓
-Room Database
-✔ Separación de responsabilidades
-✔ Código escalable y mantenible
-✔ Gestión eficiente del estado
-✔ Mejor testabilidad
+UI → ViewModel → Repository → Room Database → DAO
+
+- Separación de responsabilidades
+- Código escalable y mantenible
+- Gestión eficiente del estado
+- Mejor testabilidad
 
 ![Arquitectura MVVM](Screenshots/architecture_mvvm.png)
 

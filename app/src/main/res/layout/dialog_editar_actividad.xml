@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent">
+
+<!-- Centramos una tarjeta blanca dentro del diálogo -->
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <!-- TARJETA BLANCA -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bg_dialog_card"
+        android:padding="20dp">
+
+        <!-- Línea naranja decorativa -->
+        <View
+            android:layout_width="40dp"
+            android:layout_height="3dp"
+            android:layout_marginTop="4dp"
+            android:background="#FF7A00" />
+
+        <!-- Separación -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="12dp" />
+
+        <!-- Nombre -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_de_la_clase"
+            android:textColor="@color/fit_text_primary"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etNombre"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_dialog_field_orange"
+            android:textColor="@color/fit_text_primary"
+            android:hint="@string/live_bodypump"
+            android:textSize="14sp"
+            android:inputType="textCapWords" />
+
+        <!-- Día de la semana -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/d_a_de_la_semana_1_lun_7_dom"
+            android:textColor="@color/fit_text_primary"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etDiaSemana"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_dialog_field_orange"
+            android:textColor="@color/fit_text_primary"
+            android:hint="1"
+            android:textSize="14sp"
+            android:inputType="number" />
+
+        <!-- Hora inicio -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/hora_inicio"
+            android:textColor="@color/fit_text_primary"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etHoraInicio"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_dialog_field_orange"
+            android:textColor="@color/fit_text_primary"
+            android:hint="10:00"
+            android:textSize="14sp"
+            android:inputType="time" />
+
+        <!-- Hora fin -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/hora_fin"
+            android:textColor="@color/fit_text_primary"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etHoraFin"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_dialog_field_orange"
+            android:textColor="@color/fit_text_primary"
+            android:hint="11:00"
+            android:textSize="14sp"
+            android:inputType="time" />
+
+        <!-- Aforo -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/aforo"
+            android:textColor="@color/fit_text_primary"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etAforo"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/bg_dialog_field_orange"
+            android:textColor="@color/fit_text_primary"
+            android:hint="20"
+            android:textSize="14sp"
+            android:inputType="number" />
+
+        <!-- Separación antes de los botones -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp" />
+
+        <!-- BOTONERA -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/btnCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginEnd="12dp"
+                android:background="@android:color/transparent"
+                android:text="@string/cancelar"
+                android:textAllCaps="false"
+                android:textColor="#7A1FFF"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btnGuardar"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="@string/guardar"
+                android:textAllCaps="false"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="4dp"
+                android:includeFontPadding="false"
+                android:background="@drawable/bg_boton_morado"
+                android:backgroundTint="@null"
+                app:backgroundTint="@null" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>

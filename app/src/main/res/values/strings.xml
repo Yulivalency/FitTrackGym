@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">FitTrackGym</string>
+
+
+    <string name="desc_lista_calendario">Listado de actividades por día</string>
+
+    <string name="calendario_de_clases">Calendario de clases</string>
+    <string name="reservar">Reservar</string>
+
+
+    <string name="btn_seed_text">Reiniciar datos demo (solo pruebas)</string>
+    <string name="btn_calendario_text">Calendario de clases</string>
+
+    <string name="btn_historial_reservas">VER RESERVAS</string>
+    <string name="mis_reservas">Mis reservas</string>
+    <string name="clases_colectivas">CLASES COLECTIVAS</string>
+    <string name="reservas_de_clases_recordatorios_y_control_de_aforo_para_tu_gimnasio">Reserva tus clases y entrena sin complicaciones.</string>
+    <string name="fittrack_gym">FitTrack Gym</string>
+    <string name="make_it_happen">Make it happen</string>
+    <string name="live_bodypump">LIVE BODYPUMP</string>
+    <string name="sobre_la_clase">SOBRE LA CLASE</string>
+    <string name="anular">Anular</string>
+    <string name="reservada">Reservada</string>
+    <string name="plazas_reservadas_por_clase">Plazas reservadas por clase</string>
+    <string name="ocupaci_n">Ocupación actual</string>
+    <string name="Flecha">←</string>
+    <string name="admin_actividades">Administrar actividades</string>
+    <string name="borrar">Borrar</string>
+    <string name="editar">Editar</string>
+    <string name="horario_aforo">10:00–11:00 · Aforo: 20</string>
+    <string name="nombre_de_la_clase">Nombre de la clase</string>
+    <string name="d_a_de_la_semana_1_lun_7_dom">Día de la semana (1=Lun … 7=Dom)</string>
+    <string name="hora_inicio">Hora inicio</string>
+    <string name="hora_fin">Hora fin</string>
+    <string name="aforo">Aforo</string>
+    <string name="editar_actividad">Editar actividad</string>
+    <string name="guardar">Guardar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="volver">Volver</string>
+
+
+</resources>

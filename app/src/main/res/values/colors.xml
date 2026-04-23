@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Naranja principal -->
+    <color name="fit_orange_primary">#F36B21</color>
+    <color name="fit_orange_dark">#D85612</color>
+
+    <!-- Naranja de Apoyo (barra superior, etc.) -->
+    <color name="fit_primary">#E65100</color>
+
+    <!-- Morado de apoyo (barra superior, etc.) -->
+    <!-- color name="fit_purple_primary">#7B4CD6</color-->
+
+    <!-- Fondos suaves -->
+    <color name="fit_background_soft">#FFF6EE</color>
+    <color name="fit_card_background">#FFFFFF</color>
+
+    <!-- Texto -->
+    <color name="fit_text_primary">#181818</color>
+    <color name="fit_text_secondary">#555555</color>
+
+    <!-- Badges -->
+    <color name="fit_badge_full_border">#E53935</color>
+    <color name="fit_badge_full_bg">#FFF0F0</color>
+
+    <color name="bg_home_top">#FF7A00</color>  <!-- el startColor de tu gradiente -->
+
+
+
+</resources>

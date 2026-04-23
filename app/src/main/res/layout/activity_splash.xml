@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_splash_gradient">
+
+    <TextView
+        android:id="@+id/tvNombreAppGlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fittrack_gym"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:rotation="-8"
+        android:textColor="#66FFFFFF"
+        android:shadowColor="#FFFFFFFF"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="18"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Título de la app FITTRACK GYM inclinado -->
+    <TextView
+        android:id="@+id/tvNombreApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fittrack_gym"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:rotation="-8"
+        android:lineSpacingExtra="4dp"
+        android:shadowColor="#FFFFA040"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="40"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <!-- Tagline elegante -->
+    <TextView
+        android:id="@+id/tvTaglineGlow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="01dp"
+        android:rotation="-8"
+        android:shadowColor="#FFFFFFFF"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="7"
+        android:text="@string/make_it_happen"
+        android:textColor="#66FFFFFF"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombreApp"/>
+
+    <TextView
+        android:id="@+id/tvTagline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="01dp"
+        android:rotation="-8"
+        android:text="@string/make_it_happen"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:shadowColor="#FFFFA040"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.738"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvNombreApp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

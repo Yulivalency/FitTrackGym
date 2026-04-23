@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitTrackGym"
+        tools:targetApi="31">
+
+        <!-- SPLASH: es la launcher -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+
+           <intent-filter>
+               <action android:name="android.intent.action.MAIN" />
+               <category android:name="android.intent.category.LAUNCHER" />
+           </intent-filter>
+
+        </activity>
+
+        <!-- Main landing (no es launcher) -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+        </activity>
+
+        <!-- Calendario -->
+        <activity
+            android:name=".ui.calendario.CalendarioActivity"
+            android:exported="false"
+            android:label="@string/calendario_de_clases" />
+
+        <!-- Detalle actividad -->
+        <activity
+            android:name=".ui.detalle.DetalleActividadActivity"
+            android:exported="false"
+            android:label="Detalle actividad" />
+
+        <!-- Mis reservas -->
+        <activity
+            android:name=".ui.misreservas.MisReservasActivity"
+            android:exported="false"
+            android:label="@string/mis_reservas" />
+
+        <!-- Ocupacion de actividad -->
+        <activity
+            android:name=".ui.ocupacion.OcupacionActivity"
+            android:exported="false"
+            android:label="@string/ocupaci_n" />
+
+        <!-- Admin -->
+        <activity
+            android:name=".ui.admin.AdminActividadesActivity"
+            android:exported="false"
+            android:label="@string/admin_actividades" />
+
+    </application>
+
+</manifest>

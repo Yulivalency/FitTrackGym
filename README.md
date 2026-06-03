@@ -6,7 +6,7 @@
 
 ## 🚀 Demo
 
-![Demo](assets/demo.gif)
+![Demo FitTrackGym](assets/demo.gif)
 
 Aplicación móvil Android para la gestión de reservas y control de aforo en gimnasios
 
@@ -74,7 +74,7 @@ Se implementa Room (SQLite abstraction) para la persistencia local:
 
 
 ## 📦 Instalación
-1. Descargar el archivo APK en Releases 
+1. Descargar el archivo APK desde Releases 
 2. Instalar en un dispositivo Android
 3. Ejecutar la aplicación
 

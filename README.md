@@ -2,12 +2,6 @@
   <img src="assets/banner.png" />
 </p>
 
-## 🎬 Demo de la aplicación
-
-<p align="center">
-  <img src="assets/demo.gif" width="300"/>
-</p>
-
 # 🏋️ FitTrackGym
 
 Aplicación móvil Android para la gestión de reservas y control de aforo en gimnasios
@@ -17,7 +11,13 @@ Aplicación móvil Android para la gestión de reservas y control de aforo en gi
 ## 📱 Sobre el proyecto
 FitTrackGym es una aplicación Android diseñada para optimizar la gestión de gimnasios, permitiendo a los usuarios reservar actividades, gestionar su participación en clases y consultar disponibilidad en tiempo real.
 
-Incluye además un panel administrativo para la gestión de actividades, mejorando la organización interna del gimnasio y el control de aforo. 
+Incluye además un panel administrativo para la gestión de actividades, mejorando la organización interna del gimnasio y el control de aforo.
+
+## 🎬 Demo de la aplicación
+
+<p align="center">
+  <img src="assets/demo.gif" width="300"/>
+</p>
 
 ## 🎯 Objetivo 
 Desarrollar una solución digital eficiente para la gestión de reservas en gimnasios, mejorando la experiencia del usuario y la administración de recursos dentro del centro deportivo.
@@ -40,7 +40,8 @@ Desarrollar una solución digital eficiente para la gestión de reservas en gimn
 <p align="center">
   <img src="Screenshots/Principal.png" width="180"/>
   <img src="Screenshots/Calendario.png" width="180"/>
-  <img src="Screenshots/Ocupación.png" width="180"/>
+  <img src="Screenshots/Reservas.png" width="180"/>
+  <img src="Screenshots/Admin.png" width="180"/> 
 </p>
 
 ## 🧠 Arquitectura del sistema

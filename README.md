@@ -27,7 +27,6 @@ Desarrollar una solución digital eficiente para la gestión de reservas en gimn
 - 📅 Consulta de calendario de actividades
 - 📝 Reserva y cancelación de clases
 - ⏳ Lista de espera automática
-- 👤 Gestión de perfil de usuario
 - 📊 Visualización de disponibilidad en tiempo real
   
 🧑‍💼 Administrador
@@ -43,6 +42,16 @@ Desarrollar una solución digital eficiente para la gestión de reservas en gimn
   <img src="Screenshots/Reservas.png" width="180"/>
   <img src="Screenshots/Admin.png" width="180"/> 
 </p>
+
+## 🛠 Tecnologías utilizadas
+- **Kotlin**  
+- **Android Studio**
+- **XML (UI Design)**
+- **MVVM Architecture**  
+- **Room Database**  
+- **LiveData**   
+- **DAO (Data Access Objects)**  
+- **UML (Diseño previo del sistema)**
 
 ## 🧠 Arquitectura del sistema
 El proyecto sigue el patrón MVVM (Model - View - ViewModel):
@@ -64,16 +73,6 @@ Se implementa Room (SQLite abstraction) para la persistencia local:
 - Consultas optimizadas
 - Manejo seguro de datos locales
 - Integración con LiveData
-
-## 🛠 Tecnologías utilizadas
-- **Kotlin**  
-- **Android Studio**
-- **XML (UI Design)**
-- **MVVM Architecture**  
-- **Room Database**  
-- **LiveData**   
-- **DAO (Data Access Objects)**  
-- **UML (Diseño previo del sistema)**
 
 ## 📦 Instalación
 1. Descargar el archivo APK desde Releases 

@@ -40,7 +40,8 @@ Desarrollar una solución digital eficiente para la gestión de reservas en gimn
   <img src="Screenshots/Principal.png" width="180"/>
   <img src="Screenshots/Calendario.png" width="180"/>
   <img src="Screenshots/Reservas.png" width="180"/>
-  <img src="Screenshots/Admin.png" width="180"/> 
+  <img src="Screenshots/Ocupación.png" width="180"/> 
+   <img src="Screenshots/Admin.png" width="180"/> 
 </p>
 
 ## 🛠 Tecnologías utilizadas

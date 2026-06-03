@@ -1,3 +1,5 @@
+![FitTrackGym Banner](assets/banner.png)
+
 # 🏋️ FitTrackGym
 
 Aplicación móvil Android para la gestión de reservas y control de aforo en gimnasios

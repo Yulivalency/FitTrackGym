@@ -6,7 +6,9 @@
 
 ## 🚀 Demo
 
-![Demo FitTrackGym](assets/demo.gif)
+<p align="center">
+  <img src="assets/demo.gif" width="320"/>
+</p>
 
 Aplicación móvil Android para la gestión de reservas y control de aforo en gimnasios
 

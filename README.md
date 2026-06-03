@@ -2,13 +2,13 @@
   <img src="assets/banner.png" />
 </p>
 
-# 🏋️ FitTrackGym
-
-## 🚀 Demo
+## 🎬 Demo de la aplicación
 
 <p align="center">
-  <img src="assets/demo.gif" width="320"/>
+  <img src="assets/demo.gif" width="300"/>
 </p>
+
+# 🏋️ FitTrackGym
 
 Aplicación móvil Android para la gestión de reservas y control de aforo en gimnasios
 
@@ -35,6 +35,14 @@ Desarrollar una solución digital eficiente para la gestión de reservas en gimn
 - 📊 Control de aforo
 - ➕ Creación, edición y eliminación de clases
 
+## 📸 Capturas de pantalla
+
+<p align="center">
+  <img src="Screenshots/Principal.png" width="180"/>
+  <img src="Screenshots/Calendario.png" width="180"/>
+  <img src="Screenshots/Ocupación.png" width="180"/>
+</p>
+
 ## 🧠 Arquitectura del sistema
 El proyecto sigue el patrón MVVM (Model - View - ViewModel):
 
@@ -45,7 +53,9 @@ UI → ViewModel → Repository → Room Database → DAO
 - Gestión eficiente del estado
 - Mejor testabilidad
 
-![Arquitectura MVVM](Screenshots/architecture_mvvm.png)
+<p align="center">
+  <img src="assets/arquitectura_mvvm.png" width="800"/>
+</p>
 
 ## 💾 Base de datos
 Se implementa Room (SQLite abstraction) para la persistencia local:
@@ -63,17 +73,6 @@ Se implementa Room (SQLite abstraction) para la persistencia local:
 - **LiveData**   
 - **DAO (Data Access Objects)**  
 - **UML (Diseño previo del sistema)**
-
-## 📸 Capturas 
-
-<p align="center">
-  <img src="Screenshots/Principal.png" width="180"/>
-  <img src="Screenshots/Calendario.png" width="180"/>
-  <img src="Screenshots/Reservas.png" width="180"/>
-  <img src="Screenshots/Ocupación.png" width="180"/>
-  <img src="Screenshots/Admin.png" width="180"/>
-</p>
-
 
 ## 📦 Instalación
 1. Descargar el archivo APK desde Releases 

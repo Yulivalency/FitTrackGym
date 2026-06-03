@@ -4,6 +4,10 @@
 
 # 🏋️ FitTrackGym
 
+## 🚀 Demo
+
+![Demo](assets/demo.gif)
+
 Aplicación móvil Android para la gestión de reservas y control de aforo en gimnasios
 
 📚 Proyecto final del ciclo de Desarrollo de Aplicaciones Multiplataforma (DAM)
@@ -58,25 +62,19 @@ Se implementa Room (SQLite abstraction) para la persistencia local:
 - **DAO (Data Access Objects)**  
 - **UML (Diseño previo del sistema)**
 
-## 📸 Capturas de pantalla
+## 📸 Capturas 
 
-### 🏠 Pantalla principal
-![Pantalla principal](Screenshots/Principal.png)
+<p align="center">
+  <img src="Screenshots/Principal.png" width="180"/>
+  <img src="Screenshots/Calendario.png" width="180"/>
+  <img src="Screenshots/Reservas.png" width="180"/>
+  <img src="Screenshots/Ocupación.png" width="180"/>
+  <img src="Screenshots/Admin.png" width="180"/>
+</p>
 
-### 📅 Calendario de clases colectivas 
-![Calendario](Screenshots/Calendario.png)
-
-### 📋 Detalle de reservas
-![Reservas](Screenshots/Reservas.png)
-
-### ⛳Ocupación actual de clases reservadas
-![Ocupación](Screenshots/Ocupación.png)
-
-### 📚 Gestor de administrador 
-![Administrador](Screenshots/Admin.png)
 
 ## 📦 Instalación
-1. Descargar el archivo APK desde el repositorio 
+1. Descargar el archivo APK en Releases 
 2. Instalar en un dispositivo Android
 3. Ejecutar la aplicación
 
